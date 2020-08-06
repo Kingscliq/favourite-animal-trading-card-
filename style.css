@@ -135,6 +135,7 @@ body{
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+    box-shadow: 0 0 0 3px #e78267;
 
 }
 .wish-icon i{

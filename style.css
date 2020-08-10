@@ -204,7 +204,7 @@ body{
              0.3em 0.3em 1em rgba(0,0,0,0.3);
              margin-top: 20px;
 }
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 500px){
     .container{
         background: #ddd;
         height: 450px;

@@ -17,7 +17,7 @@ body{
     background: #ddd;
     height: 600px;
     width: 330px;
-    
+ 
     border-radius: 25px;
     margin: 30px;
     position: relative;
@@ -203,4 +203,34 @@ body{
              0 0  0 2px rgb(163, 155, 228),
              0.3em 0.3em 1em rgba(0,0,0,0.3);
              margin-top: 20px;
+}
+@media only screen and (max-width: 450px){
+    .container{
+        background: #ddd;
+        height: 450px;
+        width: 330px;
+        align-items: center;
+        border-radius: 25px;
+        margin-bottom: 100px;
+        position: relative;
+        margin-top: 10px
+        
+    }
+    .description{
+        background-color: #fff;
+        border-radius: 25px;
+        height: 330px;
+        width: 330px;
+        padding: 20px;
+        position: absolute;
+        box-shadow:
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06);
+        
+        
+        margin-top: -50px;
+    }
 }
